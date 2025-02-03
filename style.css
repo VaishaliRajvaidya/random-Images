@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(9, 154, 40);
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    color: aliceblue;
+    z-index: 99999;
+}
+button:active{
+    transform: translate(-50%,-50%) scale(0.5);
+}
